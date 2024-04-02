@@ -5,7 +5,7 @@ void main() {
   
   while (true) {
     mostrarMenu();
-    stdout.write('Ingrese su elección: ');
+    stdout.write('¿Qué deseea realizar?: ');
     String? opcion = stdin.readLineSync();
     
     switch (opcion) {
